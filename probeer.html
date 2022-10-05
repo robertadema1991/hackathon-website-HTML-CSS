@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Basicly | Digitale geletterdheid</title>
+</head>
+<body>
+    <header>
+        <div id="brand"><a href="index.html"><img src="images/basicly-logo.svg" style="max-height: 35px"/></a></div>
+        <nav>
+          <ul>
+            <li><a href="totaaloplossing.html">Totaaloplossing</a></li>
+            <li><a href="prijzen.html">Prijzen</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li id="login"><a href="/login" >Login</a></li>
+            <li id="signup"><a href="probeer.html">Probeer Basicly</a></li>
+          </ul>
+        </nav>
+        <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+          <ul class="mobile-menu">
+            <li><a href="totaaloplossing.html">Totaaloplossing</a></li>
+            <li><a href="prijzen.html">Prijzen</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li id="login"><a href="/login" >Login</a></li>
+            <li id="signup"><a href="probeer.html">Probeer Basicly</a></li>
+          </ul>
+        </div>
+      </header>
+
+      <div class="wrapper-contact">
+        <div class="contact-form-header">
+        <h1>Basicly gratis uitproberen</h1>
+        <p><em>Aan de slag met digitale geletterdheid op jullie school! 
+            Probeer Basicly vrijblijvend uit met een gratis proeflicentie.</em></p>
+        </div>
+
+        <form action="" method="get" class="contact-form">
+            <div class="form-row">
+                <label for="full-name">Naam</label>
+                <input id="full-name" name="full-name" type="text"/>
+              </div>
+            <div class="form-row">
+                <label for="email">Email</label>
+                <input id="email"
+                       name="email"
+                       type="email"
+                       placeholder="bruce@wayne.com"/>
+              </div>
+            <fieldset class="legacy-form-row">
+                <legend>Schooltype</legend>
+                <input id="school-type-1"
+                       name="school-type"
+                       type="radio"
+                       value="primair-onderwijs" />
+                <label for="school-type-1" class="radio-label">Primair onderwijs</label>
+                <input id="school-type-2"
+                       name="school-type"
+                       type="radio"
+                       value="voortgezet-onderwijs" />
+                <label for="school-type-2" class="radio-label">Voortgezet onderwijs</label>
+              </fieldset>
+              <div class="form-row">
+                <label for="functie">Functie</label>
+                <select id="functie" name="functie">
+                  <option value="Leerkracht">Leerkracht</option>
+                  <option value="ICT'er">ICT'er</option>
+                  <option value="Directeur">Directeur</option>
+                </select>
+              </div>
+              <div class="form-row">
+                <label for="question">Vragen?</label>
+                <textarea id="question" name="question"></textarea>
+                <div class="instructions">Beschrijf je vraag in max. 500 woorden</div>
+              </div>
+              <div class="form-row">
+                <button>Verstuur</button>
+              </div>
+
+        </form>
+      </div>
+
+      
+
+      <footer class="footer">
+        <div class="footer-item footer-one"><a href="index.html"><img src="images/basicly-logo.svg" style="max-height: 35px"/></a></div>
+           <div class="footer-wrap">
+            <div class="footer-item footer-two">
+                <h5>Totaaloplossing</h5>
+                <h5>Licentie</h5>
+                <h5>Contact</h5>
+            </div>
+            <div class="footer-item footer-three">
+                <h5>Facebook</h5>
+                <h5>Instagram</h5>
+                <h5>Twitter</h5>
+            </div>
+        </div> 
+    </footer>
+
+<script src="index.js"></script>
+</body>
+</html>
